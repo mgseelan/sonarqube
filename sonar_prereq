@@ -2,7 +2,7 @@
 
 ## Before you begin this guide you’ll need the following:
 
-1. One Ubuntu 18.04 server with 3GB or more memory set up by following this Initial Server Setup with Ubuntu 18.04, including a sudo non-root user and a firewall. --- https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04#step-4-%E2%80%94-setting-up-a-basic-firewall
+1. One Ubuntu 18.04 server with 4GB or more memory, 2 or more CPU, Hard disk as per need  set up by following this Initial Server Setup with Ubuntu 18.04, including a sudo non-root user and a firewall. --- https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04#step-4-%E2%80%94-setting-up-a-basic-firewall
 2. Oracle Java 8 installed on the server, configured by following the Oracle JDK section in this Oracle JDK installation tutorial. -- https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04#installing-the-oracle-jdk
 3. Nginx and MySQL, configured by following the Nginx and MySQL sections in this LEMP installation guide. -- https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
 4. (Optional) Certbot (the Let’s Encrypt client), configured by following How To Secure Nginx with Let’s Encrypt on Ubuntu 18.04.  --  https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04#step-1-%E2%80%94-installing-certbot
