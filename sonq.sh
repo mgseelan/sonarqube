@@ -48,4 +48,27 @@ sudo apt install -y  mysql-server
 
 sudo mysql_secure_installation
 
+## Adding sonarqube user to the system for the access
+sudo adduser --system --no-create-home --group --disabled-login sonarqube
+
+## Create sonarqube folder in /opt
+sudo mkdir /opt/sonarqube
+
+## To Install unzip. Will be used to unzip the sonarqube bundle
+sudo apt-get install unzip
+
+## To Change user to the sonarqube directory in opt
+cd /opt/sonarqube
+
+## To Download sonarqube bundle.
+sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.5.1.38104.zip
+
+## To Unzip sonarqube zip file
+sudo unzip sonarqube-8.5.1.38104.zip
+
+## To Delete sonarqube zip file
+sudo rm sonarqube-8.5.1.38104.zip
+
+## To change the ownership of the /ops/sonarqube folder to sonarqube user
+sudo chown -R sonarqube:sonarqube /opt/sonarqube
 
