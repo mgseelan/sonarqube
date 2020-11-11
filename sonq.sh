@@ -16,7 +16,7 @@ sudo apt update
 
 ## Installing java
 
-sudo apt install default-jre
+sudo apt install -y default-jre
 
 ## Check if Java is already installed:
 
@@ -24,7 +24,7 @@ java -version
 
 ## Installing jdk
 
-sudo apt install default-jdk
+sudo apt install -y default-jdk
 
 ## Check if Jdk is already installed:
 
@@ -34,7 +34,7 @@ javac -version
 
 sudo apt update
 
-sudo apt install nginx
+sudo apt install -y nginx
 
 # To check the IP in which your webserver is running
 
