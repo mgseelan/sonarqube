@@ -14,3 +14,6 @@ This is for installing and configure Sonarqube in Ubuntu 18.04
   RAM - 32GB Minimum RAM
   CPU - 4vCPU
   JAVA - Oracle JRE 11 or OpenJDK 11
+
+## Verification
+Verify the basic setting from the sonar_prereq file
