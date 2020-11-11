@@ -17,3 +17,9 @@ This is for installing and configure Sonarqube in Ubuntu 18.04
 
 ## Verification
 Verify the basic setting from the sonar_prereq file
+
+## Steps to follow
+
+1. Verify the prerequisite
+2. clone the repository to your specific system you want to install Sonarqube
+3. Execuite the the sonq.sh script. The script will install : a) java and jdk ; b) mySql ; c) ngnix server
