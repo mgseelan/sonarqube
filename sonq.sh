@@ -10,13 +10,25 @@ sudo apt-get update
 
 # Installing the Default JRE/JDK version 11
 
-## To install java required version version, need to update the package index:
+## To install required java version , need to update the package index: and install the java
 
 sudo apt update
+
+## Installing java
+
+sudo apt install default-jre
 
 ## Check if Java is already installed:
 
 java -version
+
+## Installing jdk
+
+sudo apt install default-jdk
+
+## Check if Jdk is already installed:
+
+javac -version
 
 # Installing the Nginx Web Server
 
