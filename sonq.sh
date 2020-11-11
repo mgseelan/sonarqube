@@ -42,3 +42,10 @@ sudo apt install -y nginx
 
 ## 2. curl -4 icanhazip.com
 
+## Install MySQL by typing:
+
+sudo apt install -y  mysql-server
+
+sudo mysql_secure_installation
+
+
